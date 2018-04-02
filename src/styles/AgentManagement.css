@@ -1,0 +1,69 @@
+.searchText{
+    font-size: 20px;
+}
+
+.popup {
+    border-color: black;
+    border-style: dotted;
+    border-radius: 5px;
+    align-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    width: 70%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: 100px;
+}
+
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+.reset {
+    color: black;
+    margin-top: 0px;
+    width: 50px;
+    height: 50px;
+    font-weight: bold;
+    float: right;
+}
+
+.button_text{
+    font-size: 20px
+}
+
+.name{
+    color: black;
+}

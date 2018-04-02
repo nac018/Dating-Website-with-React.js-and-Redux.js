@@ -1,0 +1,12 @@
+.successful_match{
+    font-size: 30px;
+}
+
+.cancel_match_button{
+    font-family: Times;
+    font-size: 15px;
+    color: black;
+    align-content: center;
+    align-items: center;
+    margin: auto;
+}
